@@ -19,10 +19,10 @@ Mit Hilfe der aus den anderen Grids von Magento bekannten Filterung, filtern Sie
 
 :menuselection:`Aktionen --> DATEV XML Online Paket`
 
-Gutschriftenexport
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Gutschriftenexport
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Beim Gutschriften Export gehen Sie analog zum Rechnungsexport vor. Sie erhalten ein zweites Archiv, das die Rechnungen des selektierten Zeitraumes enthält.
+   Beim Gutschriften Export gehen Sie analog zum Rechnungsexport vor. Sie erhalten ein zweites Archiv, das die Rechnungen des selektierten Zeitraumes enthält.
 
 Rechnungsimport nach DATEV Unternehmen Online
 ---------------------------------------------
@@ -54,4 +54,8 @@ Import über DATEV Unternehmen Online (Web)
 Import über DATEV Belegtransfer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Sie können das Archiv ebenfalls mit DATEV Belegtransfer hochladen. Das Programm gestattet Ihnen auch automatisch Uploads auf den eingestellten Verzeichnissen. Bei Upload über DATEV Belegtransfer fügen Sie das Verzeichnis hinzu, in dass Sie das von Magento erzeugte Archiv legen möchten. Bitte beachten Sie dabei, dass der Haken bei *Verzeichnis enthält aus DATEV DMS, Dokumentenavlage oder von externen Beleglieferanten exportierte Dokumente* gesetzt ist.
 
+.. note:: Ist der Haken nicht aktiviert werden die Belege als PDF übertragen und Ihr Buchhalter sieht die Rechnungsdaten nicht in seinem System, sondern nur die Belegbilder.
+
+.. image:: /images/usage-belegtransfer.png
