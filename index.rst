@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-DATEV XML Online Extension für Magento 1.x
+DATEV XML Online Extension für Magento (1.x, 2.x)
 ==============================================================
 
 .. toctree::
@@ -14,10 +14,11 @@ DATEV XML Online Extension für Magento 1.x
    installation
    configuration
    usage
+   changelog
 
-Indizes und Tabellen
-====================
+.. Indizes und Tabellen
+	====================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+	* :ref:`genindex`
+	* :ref:`modindex`
+	* :ref:`search`

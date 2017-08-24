@@ -54,7 +54,7 @@ author = u'Dominik Krebs'
 # built documents.
 #
 # The short X.Y version.
-version = u'1.2.3'
+version = u'1.3.2'
 # The full version, including alpha/beta/rc tags.
 release = u'1.2.3'
 
@@ -101,6 +101,7 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'DATEVXMLOnlineMagentoExtensiondoc'
 
+html_favicon = '_static/favicon.ico'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -158,3 +159,7 @@ import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+def setup(app):
+  app.add_javascript("custom.js")
+  app.add_stylesheet("custom.css")
