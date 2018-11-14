@@ -5,24 +5,23 @@ Verwendung
 
 Um die Rechnungsdaten inkl. Belegbildern Ihrem Steuerberater zur Verfügung zu stellen, müssen diese aus Magento in ein DATEV XML Online kompatibles Format exportiert werden. Dies übernimmt die DATEV XML Online Extension für Magento. 
 
-Export von Buchhaltungsdaten aus Magento
+Rechnungsexport aus Magento 1.x
 ----------------------------------------
 
-Rechnungsexport
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Um Rechnungen zu exportieren fahren Sie im Backend von Magento mit der Maus über den Punkt **Verkäufe** und wählen dann **DATEV XML Online**:
+Um Rechnungen unter Magento 1.x zu exportieren gehen Sie im Backend von Magento auf Punkt **Verkäufe** und wählen dann **DATEV XML Online**:
 
 :menuselection:`Verkäufe --> DATEV XML Online`
 
-Mit Hilfe der aus den anderen Grids von Magento bekannten Filterung, filtern Sie die relevanten Rechnungen, die sie exportieren möchten in der Ansicht und selektieren die zu exportierenden Rechnungen. Wählen Sie nun aus dem rechts befindlichen Select-Feld "Aktionen", die Option **DATEV XML Online Paket**.
+Mit Hilfe der aus den anderen Grids von Magento bekannten Filterung, filtern Sie die relevanten Rechnungen, die sie exportieren möchten in der Ansicht und selektieren die zu exportierenden Rechnungen. Wählen Sie nun aus dem Select-Feld "Aktionen" am rechten oberen Rand des Grid, die Option **DATEV XML Online Paket**.
 
-:menuselection:`Aktionen --> DATEV XML Online Paket`
+Rechnungs- und Korrekturrechnungs-Export aus Magento 2.x
+---------------------------------------------------------
 
-.. Gutschriftenexport
-   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Die Extension für Magento 2 wurde konsequent weiterentwickelt und ermöglicht neben dem Export von Ausgangsrechnungen nun auch den Export von Korrekturrechnungen/Gutschriften. Um Rechnungen unter Magento 2.x zu exportieren gehen Sie im Backend von Magento auf Punkt **Verkäufe** und wählen Sie dann **Rechnungen**. In der Rechnungsansicht markieren Sie die zu exportierenden Rechnungen, und wählen dann rechts **Export** dann **DATEV XML Online Format**:
 
-   Beim Gutschriften Export gehen Sie analog zum Rechnungsexport vor. Sie erhalten ein zweites Archiv, das die Rechnungen des selektierten Zeitraumes enthält.
+.. image:: /images/m2-datevxmlonline-export.png
+
+Der Export von Gutschriften erfolgt analog dazu unter :menuselection:`Verkäufe --> Gutschriften`. Sie erhalten ein zweites Archiv, das die Gutschriften des selektierten Zeitraumes enthält.
 
 Rechnungsimport nach DATEV Unternehmen Online
 ---------------------------------------------

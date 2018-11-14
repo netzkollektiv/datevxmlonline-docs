@@ -8,6 +8,26 @@ Magento 2
 
 In unsere Magento 2 Extension sind selbstverständlich alle Erfahrungen eingeflossen, die wir im Laufe der Zeit mit unserer Magento 1 Extension gewonnen haben. 
 
+v1.3, 13. November 2018
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* Integration von Gutschrift-Export
+* Optimierung der Übersetzungen & Hinweistexte
+* XML-Validierung des Archivs bei Export
+* Verbesserung der Kompatibilität mit verschiedenen Magento Versionen
+
+v1.2, 31. Oktober 2018
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* Vereinfachung der Einstellungen (es müssen nur noch notwendige Daten erfasst werden)
+* Verbesserung der Kompatibilität mit verschiedenen Magento Versionen
+
+v1.1, 29. März 2018
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* kleinere Fehlerbehebungen & Optimierungen
+* Verbesserung der Kompatibilität mit verschiedenen Magento Versionen
+
 v1.0, 22. Dezember 2016
 ~~~~~~~~~~~~~~~~~~~~~~~
 
