@@ -18,8 +18,10 @@ DATEV Unternehmen Online
 ------------------------
 
 * DATEV Unternehmen Online
-* DATEV Sicherheitspaket / mIDentity **oder** DATEV SmartLogin
-* (optional) DATEV Belegtransfer
+* DATEV Sicherheitspaket / mIDentity 
+* DATEV Belegtransfer
+
+.. **oder** DATEV SmartLogin
 
 DATEV Unternehmen Online kann über Ihren Steuerberater mit einer entsprechenden Mandantennummer gebucht werden. Eine Buchung durch Sie als Mandanten selbst ist nicht möglich. Kontaktieren Sie hierzu Ihren Steuerberater.
 
@@ -41,9 +43,9 @@ Das DATEV Sicherheitspaket wird zur Authentifizierung mit dem DATEV Rechenzentru
 * zu `DATEV Sicherheitspaket <https://www.datev.de/web/de/service/software-auslieferung/download-bereich/it-loesungen-und-security/sicherheitspaket-compact-v-3-2/>`_
 * zu `DATEV mIDentity <https://www.datev.de/web/de/datev-shop/it-loesungen-und-security/datev-midentity-compact/>`_
 
-DATEV SmartLogin
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. DATEV SmartLogin
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-DATEV SmartLogin kann alternativ zum Sicherheitspaket zur Authentifizierung verwendet werden. Die Authentifizierung erfolgt hier per iPhone oder Android App durch Scannen eines Barcodes.
+   DATEV SmartLogin kann alternativ zum Sicherheitspaket zur Authentifizierung verwendet werden. Die Authentifizierung erfolgt hier per iPhone oder Android App durch Scannen eines Barcodes.
 
-* zu `DATEV SmartLogin <https://www.datev.de/web/de/datev-shop/it-loesungen-und-security/datev-smartlogin/>`_
+   * zu `DATEV SmartLogin <https://www.datev.de/web/de/datev-shop/it-loesungen-und-security/datev-smartlogin/>`_

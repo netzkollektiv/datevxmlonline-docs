@@ -31,31 +31,35 @@ Um die Rechnungen nun zur Verfügung zu stellen, müssen diese nach DATEV import
 
 .. note:: Importieren Sie immer das **nicht-entpackte** ZIP-Archiv in jegliche DATEV-Applikationen, so wie Sie es aus Magento erhalten haben. Falls Sie das Archiv vorher entpacken oder wieder packen, kann es zu Problemen beim Import kommen.
 
-Import über DATEV Unternehmen Online (Web)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Import über DATEV Unternehmen Online (Web)
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Navigieren Sie zu `DATEV Unternehmen Online <http://duo.datev.de>`_.
-* Loggen Sie sich mit der :ref:`DATEV Smart Login App <requirements>` oder über das :ref:`DATEV Sicherheitspaket <requirements>` ein
+  * Navigieren Sie zu `DATEV Unternehmen Online <http://duo.datev.de>`_.
+  * Loggen Sie sich mit der :ref:`DATEV Smart Login App <requirements>` oder über das :ref:`DATEV Sicherheitspaket <requirements>` ein
 
-.. image:: /images/datev-smartlogin-screen.png
+  .. image:: /images/datev-smartlogin-screen.png
 
-* Wählen Sie links im Menü den Punkt :menuselection:`Belegwesen --> Belegverwaltung`
-* Wählen Sie nun rechts :menuselection:`Belege --> neuen Beleg hinzufügen`
-* Wählen Sie die aus Magento heruntergeladene ZIP-Datei aus und **entfernen** Sie den Haken von **ZIP-Archiv entpacken**.
-* Wählen Sie als Belegtyp
+  * Wählen Sie links im Menü den Punkt :menuselection:`Belegwesen --> Belegverwaltung`
+  * Wählen Sie nun rechts :menuselection:`Belege --> neuen Beleg hinzufügen`
+  * Wählen Sie die aus Magento heruntergeladene ZIP-Datei aus und **entfernen** Sie den Haken von **ZIP-Archiv entpacken**.
+  * Wählen Sie als Belegtyp
 
-  * bei Rechnungen **Rechnungsausgang**
-  * bei Gutschriften **Rechnungseingang**
+    * bei Rechnungen **Rechnungsausgang**
+    * bei Gutschriften **Rechnungseingang**
 
-* Klicken Sie nun unten auf **Übernehmen**
+  * Klicken Sie nun unten auf **Übernehmen**
 
-.. image:: /images/datev-unternehmenonline-beleg-upload.png
+  .. image:: /images/datev-unternehmenonline-beleg-upload.png
 
 Import über DATEV Belegtransfer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sie können das Archiv ebenfalls mit DATEV Belegtransfer hochladen. Das Programm gestattet Ihnen auch automatisch Uploads auf den eingestellten Verzeichnissen. Bei Upload über DATEV Belegtransfer fügen Sie das Verzeichnis hinzu, in dass Sie das von Magento erzeugte Archiv legen möchten. Bitte beachten Sie dabei, dass der Haken bei *Verzeichnis enthält aus DATEV DMS, Dokumentenavlage oder von externen Beleglieferanten exportierte Dokumente* gesetzt ist.
+Sie können das Archiv mit DATEV Belegtransfer hochladen. Das Programm gestattet Ihnen auch automatisch Uploads auf den eingestellten Verzeichnissen. Bei Upload über DATEV Belegtransfer fügen Sie das Verzeichnis hinzu, in dass Sie das von Magento erzeugte Archiv legen möchten. Bitte beachten Sie dabei, dass der Haken bei *Verzeichnis enthält aus DATEV DMS, Dokumentenavlage oder von externen Beleglieferanten exportierte Dokumente* gesetzt ist.
 
 .. note:: Ist der Haken nicht aktiviert werden die Belege als PDF übertragen und Ihr Buchhalter sieht die Rechnungsdaten nicht in seinem System, sondern nur die Belegbilder.
 
 .. image:: /images/usage-belegtransfer.png
+
+Für die Nutzung von DATEV Belegtransfer beachten Sie bitte die System-Voraussetzungen auf der Seite von Datev.
+
+.. note:: Ein Upload über DATEV Dokument-Upload online ist derzeit nicht möglich. Ein Upload über das webbasierte DATEV Unternehmen online ist ebenfalls nicht möglich.
