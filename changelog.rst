@@ -8,6 +8,23 @@ Magento 2
 
 In unsere Magento 2 Extension sind selbstverständlich alle Erfahrungen eingeflossen, die wir im Laufe der Zeit mit unserer Magento 1 Extension gewonnen haben. 
 
+v1.3.3, 05. Februar 2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* bei Rabatten wir der discount_tax_compensation_amount berücksichtigt
+* Dokumente mit einem Betrag von 0 EUR werden nicht exportiert
+
+v1.3.2, 14 Januar 2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Verbesserung der Kompatibilität mit verschiedenen Magento Versionen
+
+v1.3.1, 03. Dezember 2018
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Fehlerbehebung bei Übertragung von Steuern
+* Optimierung des Steuerklassen-Handlings
+
 v1.3, 13. November 2018
 ~~~~~~~~~~~~~~~~~~~~~~~
 

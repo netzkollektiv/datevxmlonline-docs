@@ -47,7 +47,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'DATEV XML Online Magento Extension'
 copyright = u'2017, NETZKOLLEKTIV GmbH'
-author = u'Dominik Krebs'
+author = u'NETZKOLLEKTIV GmbH'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -122,16 +122,17 @@ latex_elements = {
     #
     # 'figure_align': 'htbp',
 }
+latex_show_urls = 'footnote'
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'DATEVXMLOnlineMagentoExtension.tex', u'DATEV XML Online Magento Extension Documentation',
-     u'Dominik Krebs', 'manual'),
+     u'NETZKOLLEKTIV GmbH', 'manual'),
 ]
 
-
+latex_logo = 'images/logo.png'
 # -- Options for manual page output ---------------------------------------
 
 # One entry per manual page. List of tuples
